@@ -1,22 +1,30 @@
-## go-gt7-telemetry
+## GT7 Live HUD Dashboard
 
-A Gran Turismo 7 Telemetry Library for Go
+A HUD dashboard for any GT7 players. Displaying useful information including brake pressure, throttle position and tyres temperature.
 
-## Example
+## Demo
+![alt text](./docs/sample-1.png)
 
-```go
-package main
+## Prerequisite
+Tested with below dependencies version
+- Node 20
+- Go 1.23
 
-import (
-	"fmt"
-	gt7 "github.com/snipem/go-gt7-telemetry/lib"
-)
-
-func main() {
-	gt7c := gt7.NewGT7Communication("255.255.255.255")
-	go gt7c.Run()
-	for {
-		fmt.Println(gt7c.LastData.CarSpeed)
-	}
-}
+## Usage
 ```
+make install
+make start-prod
+```
+
+## Tech stack
+- Go
+- Vite react
+
+## Development with hot-reload
+```
+make install
+make start-dev
+```
+
+## Thank you
+- [snipem/go-gt7-telemetry](https://github.com/snipem/go-gt7-telemetry)
