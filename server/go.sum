@@ -1,0 +1,8 @@
+github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
+github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/rs/cors v1.11.1 h1:eU3gRzXLRK57F5rKMGMZURNdIG4EoAmX8k94r9wXWHA=
+github.com/rs/cors v1.11.1/go.mod h1:XyqrcTp5zjWr1wsJ8PIRZssZ8b/WMcMf71DJnit4EMU=
+github.com/snipem/go-gt7-telemetry v0.0.0-20240430151727-42de380f2d06 h1:2dv+J4YkJjksMbBUUs8SI4crnz95zjbcJfTU6wSevPI=
+github.com/snipem/go-gt7-telemetry v0.0.0-20240430151727-42de380f2d06/go.mod h1:L3dokjrYaT97ABVpKwSF6clg/4ghfLhePZildj3p5Yo=
+golang.org/x/crypto v0.10.0 h1:LKqV2xt9+kDzSTfOhx4FrkEBcMrAgHSYgzywV9zcGmM=
+golang.org/x/crypto v0.10.0/go.mod h1:o4eNf7Ede1fv+hwOwZsTHl9EsPFO6q6ZvYR8vYfY45I=
